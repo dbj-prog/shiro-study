@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shiro-ssm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1af775b9-a956-4a6a-b835-aefd8210c6fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Program Files\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xh87xsXDngHgug4T5Ynm884O5C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shiro-ssm2/src" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.55188143" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp\WEB-INF" />
+      <recent name="D:\ideaProject\shiro\shiro-web\web\static\css" />
+      <recent name="D:\ideaProject\shiro\shiro-web\web\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dbj" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\shiro\shiro-ssm2\src" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm\lib" />
+      <recent name="D:\ideaProject\shiro\shiro-web\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="DAO (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.dao.DAO" />
+      <module name="shiro-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbj.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.dao.DAO" />
+      <module name="shiro-database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbj.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEntryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.test.TestEntryption" />
+      <module name="shiro-saltEncryption" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShiro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.TestShiro" />
+      <module name="shiro-database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbj.realm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShiro1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.TestShiro" />
+      <module name="shiro-saltEncryption" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbj.realm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestShiro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.TestShiro" />
+      <module name="shiro-database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbj.exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shiro-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shiro" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1729" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shiro-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shiro-ssm" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shiro-ssm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shiro-ssm" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shiro_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5651" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shiro-ssm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestShiro" />
+      <item itemvalue="Application.DAO" />
+      <item itemvalue="Application.DAO (1)" />
+      <item itemvalue="Application.TestEntryption" />
+      <item itemvalue="Application.TestShiro (1)" />
+      <item itemvalue="Application.TestShiro1" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.30" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DAO (1)" />
+        <item itemvalue="Application.TestShiro1" />
+        <item itemvalue="Application.TestEntryption" />
+        <item itemvalue="Application.TestShiro (1)" />
+        <item itemvalue="Application.DAO" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1af775b9-a956-4a6a-b835-aefd8210c6fb" name="Default Changelist" comment="" />
+      <created>1581486802499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581486802499</updated>
+      <workItem from="1581486806467" duration="21400000" />
+      <workItem from="1581573084241" duration="2754000" />
+      <workItem from="1581576463754" duration="17397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="352" y="76" key="#Project_Structure" timestamp="1581486874544">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="352" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1581486874544" />
+    <state x="447" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581587350587">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581587350587" />
+    <state x="393" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581486912584">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="393" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1581486912584" />
+    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1581584377384">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581584377384" />
+    <state x="417" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581587490509">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="417" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1581587490509" />
+    <state x="250" y="172" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1581504785265">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="250" y="172" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.834@0.0.1536.834" timestamp="1581504785265" />
+    <state x="542" y="172" key="FileChooserDialogImpl" timestamp="1581594145321">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="542" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581594145321" />
+    <state width="1025" height="214" key="GridCell.Tab.0.bottom" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.0.center" timestamp="1581598554883">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581598554883" />
+    <state width="1025" height="214" key="GridCell.Tab.0.left" timestamp="1581598554883">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581598554883" />
+    <state width="1025" height="214" key="GridCell.Tab.0.right" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.1.bottom" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.1.center" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.1.left" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.1.right" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.2.bottom" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.2.center" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.2.left" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.2.right" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.3.bottom" timestamp="1581598554888">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581598554888" />
+    <state width="1025" height="214" key="GridCell.Tab.3.center" timestamp="1581598554887">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1581598554887" />
+    <state width="1025" height="214" key="GridCell.Tab.3.left" timestamp="1581598554884">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
+    <state width="1025" height="214" key="GridCell.Tab.3.right" timestamp="1581598554888">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1025" height="214" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1581598554888" />
+    <state width="304" height="477" key="HiddenNamespacesPopup" timestamp="1581493268859">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="304" height="477" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1581493268859" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1581594571676">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581594571676" />
+    <state x="361" y="0" key="new project wizard" timestamp="1581594147833">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1581594147833" />
+    <state x="338" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1581582800854">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="338" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1581582800854" />
+    <state x="190" y="101" key="spring file set editor" timestamp="1581586354340">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="190" y="101" key="spring file set editor/0.0.1536.834@0.0.1536.834" timestamp="1581586354340" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-ssm/src/main/java/com/dbj/controller/LoginController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
