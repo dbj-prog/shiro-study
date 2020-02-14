@@ -2,11 +2,99 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="shiro-ssm:war exploded" />
+      <artifact name="shiro-ssm2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af775b9-a956-4a6a-b835-aefd8210c6fb" name="Default Changelist" comment="" />
+    <list default="true" id="1af775b9-a956-4a6a-b835-aefd8210c6fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/shiro_ssm2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/shiro-ssm2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/exception/DefaultExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/Permission.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/Role.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/RolePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/RolePermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/User.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/PermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/RoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/RolePermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/RolePermissionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/pojo/UserRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/realm/DatabaseRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/RolePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/RolePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/util/MybatisGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/util/OverIsMergeablePlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/resources/applicationContext-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/resources/dbConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/resources/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/deleteOrder.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/deleteProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/editPermission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/editRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/editUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/include/menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/listPermission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/listProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/listRole.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/listUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp/unauthorized.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shiro_ssm2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/shiro_ssm2_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/WEB-INF/classes/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/WEB-INF/classes/shiro.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/deleteOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/deleteOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/deleteProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/deleteProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/listProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/listProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/noPerms.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/noPerms.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/noRoles.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/shiro_web_war_exploded/noRoles.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/shiro-web/shiro.ini" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/shiro-web/shiro.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-ssm/shiro-ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm/shiro-ssm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-ssm/src/main/java/com/dbj/mapper/permission.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm/src/main/java/com/dbj/mapper/permission.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-ssm/src/main/java/com/dbj/mapper/role.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm/src/main/java/com/dbj/mapper/role.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-ssm/src/main/java/com/dbj/mapper/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm/src/main/java/com/dbj/mapper/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-ssm/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm/src/main/resources/log4j.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +120,13 @@
         <option value="CSS File" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -57,6 +148,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Xh87xsXDngHgug4T5Ynm884O5C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -65,10 +159,11 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shiro-ssm2/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shiro-ssm2/src/main/webapp/WEB-INF/jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -76,25 +171,25 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp" />
-      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp\WEB-INF" />
-      <recent name="D:\ideaProject\shiro\shiro-web\web\static\css" />
-      <recent name="D:\ideaProject\shiro\shiro-web\web\static" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\shiro\shiro-ssm2\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm2\src\main\java\com\dbj\controller" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm2\src\main\java\com\dbj\mapper" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm2\src\main\java\com\dbj\pojo" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm2\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.dbj" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaProject\shiro\shiro-ssm2\src" />
-      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProject\shiro\shiro-ssm2\src\main\java\com\dbj\exception" />
       <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\ideaProject\shiro\shiro-ssm\lib" />
-      <recent name="D:\ideaProject\shiro\shiro-web\src" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp" />
+      <recent name="D:\ideaProject\shiro\shiro-ssm\src\main\webapp\WEB-INF" />
+      <recent name="D:\ideaProject\shiro\shiro-web\web\static\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="Tomcat Server.Tomcat2">
     <configuration name="DAO (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dbj.dao.DAO" />
       <module name="shiro-web" />
@@ -121,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEntryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dbj.test.TestEntryption" />
-      <module name="shiro-saltEncryption" />
+    <configuration name="MybatisGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.util.MybatisGenerator" />
+      <module name="shiro-ssm2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dbj.test.*" />
+          <option name="PATTERN" value="com.dbj.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShiro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dbj.TestShiro" />
-      <module name="shiro-database" />
+    <configuration name="TestEntryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.test.TestEntryption" />
+      <module name="shiro-saltEncryption" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dbj.realm.*" />
+          <option name="PATTERN" value="com.dbj.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,17 +269,17 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.30" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shiro-ssm2/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="shiro-web:war exploded">
+        <artifact name="shiro-ssm2:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="" />
+            <option name="CONTEXT_PATH" value="/shiro-ssm2" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shiro" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shiro_3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -192,7 +287,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="1729" />
+        <option name="DEBUG_PORT" value="9940" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -242,7 +337,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="shiro-web:war exploded" />
+          <artifact name="shiro-ssm2:war exploded" />
         </option>
       </method>
     </configuration>
@@ -319,22 +414,95 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shiro-ssm2" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shiro-ssm2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shiro-ssm2" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_shiro" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1729" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shiro-ssm2:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TestShiro" />
       <item itemvalue="Application.DAO" />
       <item itemvalue="Application.DAO (1)" />
       <item itemvalue="Application.TestEntryption" />
-      <item itemvalue="Application.TestShiro (1)" />
       <item itemvalue="Application.TestShiro1" />
+      <item itemvalue="Application.MybatisGenerator" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.30" />
+      <item itemvalue="Tomcat Server.Tomcat2" />
       <item itemvalue="Tomcat Server.Tomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MybatisGenerator" />
         <item itemvalue="Application.DAO (1)" />
         <item itemvalue="Application.TestShiro1" />
         <item itemvalue="Application.TestEntryption" />
-        <item itemvalue="Application.TestShiro (1)" />
         <item itemvalue="Application.DAO" />
       </list>
     </recent_temporary>
@@ -373,7 +541,8 @@
       <updated>1581486802499</updated>
       <workItem from="1581486806467" duration="21400000" />
       <workItem from="1581573084241" duration="2754000" />
-      <workItem from="1581576463754" duration="17397000" />
+      <workItem from="1581576463754" duration="17883000" />
+      <workItem from="1581652169614" duration="8049000" />
     </task>
     <servers />
   </component>
@@ -381,110 +550,118 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="352" y="76" key="#Project_Structure" timestamp="1581486874544">
+    <state x="352" y="76" key="#Project_Structure" timestamp="1581652552661">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="352" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1581486874544" />
-    <state x="447" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581587350587">
+    <state x="352" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1581652552661" />
+    <state x="447" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581660490032">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="447" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581587350587" />
+    <state x="447" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581660490032" />
     <state x="393" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581486912584">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="393" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1581486912584" />
-    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1581584377384">
+    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1581659442333">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581584377384" />
+    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581659442333" />
     <state x="417" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581587490509">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="417" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1581587490509" />
+    <state x="998" y="328" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581658873851">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="998" y="328" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1581658873851" />
     <state x="250" y="172" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1581504785265">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="250" y="172" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.834@0.0.1536.834" timestamp="1581504785265" />
-    <state x="542" y="172" key="FileChooserDialogImpl" timestamp="1581594145321">
+    <state x="542" y="172" key="FileChooserDialogImpl" timestamp="1581652219457">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="542" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581594145321" />
-    <state width="1025" height="214" key="GridCell.Tab.0.bottom" timestamp="1581598554884">
+    <state x="542" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581652219457" />
+    <state width="1025" height="214" key="GridCell.Tab.0.bottom" timestamp="1581660583137">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.0.center" timestamp="1581598554883">
+    <state width="1025" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581660583137" />
+    <state width="1025" height="214" key="GridCell.Tab.0.center" timestamp="1581660583137">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581598554883" />
-    <state width="1025" height="214" key="GridCell.Tab.0.left" timestamp="1581598554883">
+    <state width="1025" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581660583137" />
+    <state width="1025" height="214" key="GridCell.Tab.0.left" timestamp="1581660583137">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581598554883" />
-    <state width="1025" height="214" key="GridCell.Tab.0.right" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581660583137" />
+    <state width="1025" height="214" key="GridCell.Tab.0.right" timestamp="1581660583137">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.1.bottom" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581660583137" />
+    <state width="1025" height="214" key="GridCell.Tab.1.bottom" timestamp="1581660495102">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.1.center" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581660495102" />
+    <state width="1025" height="214" key="GridCell.Tab.1.center" timestamp="1581660495102">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.1.left" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581660495102" />
+    <state width="1025" height="214" key="GridCell.Tab.1.left" timestamp="1581660495102">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.1.right" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581660495102" />
+    <state width="1025" height="214" key="GridCell.Tab.1.right" timestamp="1581660495102">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.2.bottom" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581660495102" />
+    <state width="1025" height="214" key="GridCell.Tab.2.bottom" timestamp="1581660495102">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.2.center" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581660495102" />
+    <state width="1025" height="214" key="GridCell.Tab.2.center" timestamp="1581660495102">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.2.left" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1581660495102" />
+    <state width="1025" height="214" key="GridCell.Tab.2.left" timestamp="1581660495102">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.2.right" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1581660495102" />
+    <state width="1025" height="214" key="GridCell.Tab.2.right" timestamp="1581660495102">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.3.bottom" timestamp="1581598554888">
+    <state width="1025" height="214" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1581660495102" />
+    <state width="1025" height="214" key="GridCell.Tab.3.bottom" timestamp="1581599064466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581598554888" />
-    <state width="1025" height="214" key="GridCell.Tab.3.center" timestamp="1581598554887">
+    <state width="1025" height="214" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581599064466" />
+    <state width="1025" height="214" key="GridCell.Tab.3.center" timestamp="1581599064466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1581598554887" />
-    <state width="1025" height="214" key="GridCell.Tab.3.left" timestamp="1581598554884">
+    <state width="1025" height="214" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1581599064466" />
+    <state width="1025" height="214" key="GridCell.Tab.3.left" timestamp="1581599064466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1581598554884" />
-    <state width="1025" height="214" key="GridCell.Tab.3.right" timestamp="1581598554888">
+    <state width="1025" height="214" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1581599064466" />
+    <state width="1025" height="214" key="GridCell.Tab.3.right" timestamp="1581599064466">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1581598554888" />
+    <state width="1025" height="214" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1581599064466" />
     <state width="304" height="477" key="HiddenNamespacesPopup" timestamp="1581493268859">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="304" height="477" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1581493268859" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1581594571676">
+    <state x="0" y="0" key="SettingsEditor" timestamp="1581660446549">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581594571676" />
-    <state x="361" y="0" key="new project wizard" timestamp="1581594147833">
+    <state x="0" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581660446549" />
+    <state x="0" y="0" width="889" height="834" key="find.popup" timestamp="1581659415167">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1581594147833" />
+    <state x="0" y="0" width="889" height="834" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1581659415167" />
+    <state x="361" y="0" key="new project wizard" timestamp="1581652245662">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1581652245662" />
     <state x="338" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1581582800854">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -493,16 +670,5 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="190" y="101" key="spring file set editor/0.0.1536.834@0.0.1536.834" timestamp="1581586354340" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shiro-ssm/src/main/java/com/dbj/controller/LoginController.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

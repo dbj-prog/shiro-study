@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/shiro-database/shiro-database.iml" filepath="$PROJECT_DIR$/shiro-database/shiro-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro-saltEncryption/shiro-saltEncryption.iml" filepath="$PROJECT_DIR$/shiro-saltEncryption/shiro-saltEncryption.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro-ssm/shiro-ssm.iml" filepath="$PROJECT_DIR$/shiro-ssm/shiro-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shiro-ssm2/shiro-ssm2.iml" filepath="$PROJECT_DIR$/shiro-ssm2/shiro-ssm2.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro-web/shiro-web.iml" filepath="$PROJECT_DIR$/shiro-web/shiro-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiro1/shiro1.iml" filepath="$PROJECT_DIR$/shiro1/shiro1.iml" />
     </modules>
