@@ -9,17 +9,18 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.util.ByteSource;
 
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class CustomRealm extends AuthorizingRealm {
+public class CustomRealm2 extends AuthorizingRealm {
     //用Map模拟数据库来存储数据
     Map<String, String> map = new HashMap<>();
     {
-        map.put("dbj", "123");
+        map.put("dbj", "a889385ec627ef8d61e01a81ebc2daa0");
     }
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
@@ -61,10 +62,17 @@ public class CustomRealm extends AuthorizingRealm {
         }
         //创建一个认证信息对象，将用户名和查到的密码返回
         SimpleAuthenticationInfo sa = new SimpleAuthenticationInfo(username, password, getName());
+        //设置加密使用的盐值
+        sa.setCredentialsSalt(ByteSource.Util.bytes("dbj"));
         return sa;
     }
 
     private String getPasswordByUsername(String username) {
         return map.get(username);
+    }
+
+    public static void main(String[] args) {
+        Md5Hash md5Hash = new Md5Hash("123","dbj");
+        System.out.println(md5Hash);
     }
 }

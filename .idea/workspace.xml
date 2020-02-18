@@ -7,26 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af775b9-a956-4a6a-b835-aefd8210c6fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/shiro-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/dbj/realm/CustomRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/AuthenticationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/AuthorizingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/CustomRealmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/IniRealmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/JdbcRealmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiro-test/src/test/resources/shiro.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/dbj/realm/CustomRealm2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-ssm2/shiro-ssm2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm2/shiro-ssm2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm2/src/main/java/com/dbj/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/main/java/com/dbj/realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/main/java/com/dbj/realm/CustomRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/CustomRealmTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/CustomRealmTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,35 +136,16 @@
       <recent name="D:\ideaProject\shiro\shiro-web\web\static\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomRealmTest.test1">
-    <configuration name="AuthenticationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomRealmTest.test2">
+    <configuration name="CustomRealm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dbj.realm.CustomRealm" />
       <module name="shiro-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dbj.test.*" />
+          <option name="PATTERN" value="com.dbj.realm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dbj.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dbj.test.AuthenticationTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthorizingTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dbj.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.dbj.test" />
-      <option name="MAIN_CLASS_NAME" value="com.dbj.test.AuthorizingTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +161,22 @@
       <option name="PACKAGE_NAME" value="com.dbj.test" />
       <option name="MAIN_CLASS_NAME" value="com.dbj.test.CustomRealmTest" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomRealmTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shiro-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dbj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dbj.test" />
+      <option name="MAIN_CLASS_NAME" value="com.dbj.test.CustomRealmTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -456,19 +437,19 @@
       <item itemvalue="Tomcat Server.Tomcat 9.0.30" />
       <item itemvalue="Tomcat Server.Tomcat2" />
       <item itemvalue="Tomcat Server.Tomcat" />
-      <item itemvalue="JUnit.AuthenticationTest.test" />
-      <item itemvalue="JUnit.AuthorizingTest.test" />
       <item itemvalue="JUnit.IniRealmTest.test" />
       <item itemvalue="JUnit.JdbcRealmTest.test" />
       <item itemvalue="JUnit.CustomRealmTest.test1" />
+      <item itemvalue="Application.CustomRealm" />
+      <item itemvalue="JUnit.CustomRealmTest.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomRealmTest.test2" />
+        <item itemvalue="Application.CustomRealm" />
         <item itemvalue="JUnit.CustomRealmTest.test1" />
         <item itemvalue="JUnit.JdbcRealmTest.test" />
         <item itemvalue="JUnit.IniRealmTest.test" />
-        <item itemvalue="JUnit.AuthorizingTest.test" />
-        <item itemvalue="JUnit.AuthenticationTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -485,11 +466,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:shiro-test@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:shiro-test@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@6be57eab" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -515,7 +491,7 @@
       <workItem from="1581661475354" duration="1450000" />
       <workItem from="1581664275438" duration="4031000" />
       <workItem from="1581832713282" duration="6871000" />
-      <workItem from="1582019082867" duration="10367000" />
+      <workItem from="1582019082867" duration="12267000" />
     </task>
     <servers />
   </component>
@@ -555,38 +531,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="542" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582019147432" />
-    <state width="1495" height="134" key="GridCell.Tab.0.bottom" timestamp="1582034062019">
+    <state width="1495" height="266" key="GridCell.Tab.0.bottom" timestamp="1582035493292">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="134" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582034062019" />
-    <state width="1495" height="134" key="GridCell.Tab.0.center" timestamp="1582034062019">
+    <state width="1495" height="266" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582035493292" />
+    <state width="1495" height="266" key="GridCell.Tab.0.center" timestamp="1582035493291">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="134" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582034062019" />
-    <state width="1495" height="134" key="GridCell.Tab.0.left" timestamp="1582034062018">
+    <state width="1495" height="266" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582035493291" />
+    <state width="1495" height="266" key="GridCell.Tab.0.left" timestamp="1582035493291">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="134" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582034062018" />
-    <state width="1495" height="134" key="GridCell.Tab.0.right" timestamp="1582034062019">
+    <state width="1495" height="266" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582035493291" />
+    <state width="1495" height="266" key="GridCell.Tab.0.right" timestamp="1582035493291">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="134" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582034062019" />
-    <state width="1495" height="266" key="GridCell.Tab.1.bottom" timestamp="1582030226201">
+    <state width="1495" height="266" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582035493291" />
+    <state width="1495" height="266" key="GridCell.Tab.1.bottom" timestamp="1582035493851">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="266" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582030226201" />
-    <state width="1495" height="266" key="GridCell.Tab.1.center" timestamp="1582030226201">
+    <state width="1495" height="266" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582035493851" />
+    <state width="1495" height="266" key="GridCell.Tab.1.center" timestamp="1582035493851">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="266" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1582030226201" />
-    <state width="1495" height="266" key="GridCell.Tab.1.left" timestamp="1582030226201">
+    <state width="1495" height="266" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1582035493851" />
+    <state width="1495" height="266" key="GridCell.Tab.1.left" timestamp="1582035493851">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="266" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1582030226201" />
-    <state width="1495" height="266" key="GridCell.Tab.1.right" timestamp="1582030226201">
+    <state width="1495" height="266" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1582035493851" />
+    <state width="1495" height="266" key="GridCell.Tab.1.right" timestamp="1582035493851">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="266" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582030226201" />
+    <state width="1495" height="266" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582035493851" />
     <state width="1025" height="214" key="GridCell.Tab.2.bottom" timestamp="1581673933169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -666,6 +642,11 @@
           <url>file://$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/AuthenticationTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shiro-test/src/test/java/com/dbj/test/CustomRealmTest.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
