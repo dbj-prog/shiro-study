@@ -18,7 +18,7 @@ public class LoginController {
 	public String login(Model model,String name, String password) {
         Subject subject = SecurityUtils.getSubject();  
         UsernamePasswordToken token = new UsernamePasswordToken(name, password);  
-        try {  
+        try {
             subject.login(token);
             Session session=subject.getSession();
             session.setAttribute("subject", subject);

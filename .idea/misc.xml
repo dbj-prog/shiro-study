@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/shiro-ssm/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-ssm2/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-test/pom.xml" />
       </list>
     </option>
   </component>
