@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/shiro-spring" />
     <file type="web" url="file://$PROJECT_DIR$/shiro-ssm" />
     <file type="web" url="file://$PROJECT_DIR$/shiro-ssm2" />
   </component>
@@ -10,6 +11,7 @@
         <option value="$PROJECT_DIR$/shiro-ssm/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-ssm2/pom.xml" />
         <option value="$PROJECT_DIR$/shiro-test/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro-spring/pom.xml" />
       </list>
     </option>
   </component>
