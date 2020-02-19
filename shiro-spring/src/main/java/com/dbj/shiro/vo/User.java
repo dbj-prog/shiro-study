@@ -1,5 +1,9 @@
 package com.dbj.shiro.vo;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component
 public class User {
     private String username;
     private String password;
