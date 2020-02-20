@@ -7,13 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1af775b9-a956-4a6a-b835-aefd8210c6fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/dao/impl/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/filter/RoleOrFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/session/RedisSessionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/util/JedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-spring/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiro-spring/src/main/resources/spring/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro-spring/shiro-spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/shiro-spring.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/realm/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/realm/CustomRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/vo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/vo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro-spring/src/main/resources/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/src/main/resources/spring/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro-spring/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/src/main/webapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-spring/src/main/resources/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/src/main/resources/spring/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-spring/target/classes/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/target/classes/spring/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-spring/target/classes/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/target/classes/spring/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-spring/target/shiro-spring-1.0-SNAPSHOT/WEB-INF/classes/spring/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/target/shiro-spring-1.0-SNAPSHOT/WEB-INF/classes/spring/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-spring/target/shiro-spring-1.0-SNAPSHOT/WEB-INF/classes/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-spring/target/shiro-spring-1.0-SNAPSHOT/WEB-INF/classes/spring/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-ssm/shiro-ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm/shiro-ssm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-ssm2/shiro-ssm2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-ssm2/shiro-ssm2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro-test/shiro-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shiro-test/shiro-test.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +50,32 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="shiro-test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="shiro-test@localhost [2]" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="shiro-test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="shiro-test@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="shiro-test@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="shiro-test: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="shiro-test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="shiro-test@localhost [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="shiro-test: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="users: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shiro-test@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shiro-test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="roles_permissions: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shiro-test@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shiro-test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user_roles: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -61,11 +84,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -89,7 +112,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="D:\Program Files\maven\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\Program Files\maven\repository" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -120,7 +143,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.55188143" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -472,6 +495,10 @@
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:shiro-test@localhost [2]" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -497,7 +524,7 @@
       <workItem from="1581664275438" duration="4031000" />
       <workItem from="1581832713282" duration="6871000" />
       <workItem from="1582019082867" duration="16854000" />
-      <workItem from="1582087263569" duration="1412000" />
+      <workItem from="1582087263569" duration="9030000" />
     </task>
     <servers />
   </component>
@@ -509,18 +536,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="352" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1581652552661" />
-    <state x="413" y="145" width="1123" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582088275522">
+    <state x="413" y="145" width="1123" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582092589700">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="413" y="145" width="1123" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582088275522" />
+    <state x="413" y="145" width="1123" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582092589700" />
     <state x="393" y="220" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581486912584">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="393" y="220" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1581486912584" />
-    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1582038385312">
+    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1582093917736">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582038385312" />
+    <state x="0" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1582093917736" />
     <state x="417" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1581587490509">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -537,78 +564,78 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="542" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582037164801" />
-    <state width="1025" height="214" key="GridCell.Tab.0.bottom" timestamp="1582088412098">
+    <state width="1025" height="214" key="GridCell.Tab.0.bottom" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582088412098" />
-    <state width="1025" height="214" key="GridCell.Tab.0.center" timestamp="1582088412097">
+    <state width="1025" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.0.center" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582088412097" />
-    <state width="1025" height="214" key="GridCell.Tab.0.left" timestamp="1582088412097">
+    <state width="1025" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.0.left" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582088412097" />
-    <state width="1025" height="214" key="GridCell.Tab.0.right" timestamp="1582088412097">
+    <state width="1025" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.0.right" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582088412097" />
-    <state width="1025" height="214" key="GridCell.Tab.1.bottom" timestamp="1582088430480">
+    <state width="1025" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.1.bottom" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582088430480" />
-    <state width="1025" height="214" key="GridCell.Tab.1.center" timestamp="1582088430480">
+    <state width="1025" height="214" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.1.center" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1582088430480" />
-    <state width="1025" height="214" key="GridCell.Tab.1.left" timestamp="1582088430480">
+    <state width="1025" height="214" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.1.left" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1582088430480" />
-    <state width="1025" height="214" key="GridCell.Tab.1.right" timestamp="1582088430480">
+    <state width="1025" height="214" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.1.right" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582088430480" />
-    <state width="1025" height="214" key="GridCell.Tab.2.bottom" timestamp="1582088411900">
+    <state width="1025" height="214" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.2.bottom" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582088411900" />
-    <state width="1025" height="214" key="GridCell.Tab.2.center" timestamp="1582088411900">
+    <state width="1025" height="214" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.2.center" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1582088411900" />
-    <state width="1025" height="214" key="GridCell.Tab.2.left" timestamp="1582088411900">
+    <state width="1025" height="214" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.2.left" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1582088411900" />
-    <state width="1025" height="214" key="GridCell.Tab.2.right" timestamp="1582088411900">
+    <state width="1025" height="214" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.2.right" timestamp="1582102512361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1582088411900" />
-    <state width="1025" height="214" key="GridCell.Tab.3.bottom" timestamp="1582088411900">
+    <state width="1025" height="214" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1582102512361" />
+    <state width="1025" height="214" key="GridCell.Tab.3.bottom" timestamp="1582092432478">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582088411900" />
-    <state width="1025" height="214" key="GridCell.Tab.3.center" timestamp="1582088411900">
+    <state width="1025" height="214" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582092432478" />
+    <state width="1025" height="214" key="GridCell.Tab.3.center" timestamp="1582092432478">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1582088411900" />
-    <state width="1025" height="214" key="GridCell.Tab.3.left" timestamp="1582088411900">
+    <state width="1025" height="214" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1582092432478" />
+    <state width="1025" height="214" key="GridCell.Tab.3.left" timestamp="1582092432478">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1582088411900" />
-    <state width="1025" height="214" key="GridCell.Tab.3.right" timestamp="1582088411900">
+    <state width="1025" height="214" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1582092432478" />
+    <state width="1025" height="214" key="GridCell.Tab.3.right" timestamp="1582092432478">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1025" height="214" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1582088411900" />
-    <state width="304" height="477" key="HiddenNamespacesPopup" timestamp="1582030323324">
+    <state width="1025" height="214" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1582092432478" />
+    <state width="304" height="477" key="HiddenNamespacesPopup" timestamp="1582092596668">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="304" height="477" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1582030323324" />
-    <state x="0" y="0" width="1170" height="715" key="SettingsEditor" timestamp="1582040696423">
+    <state width="304" height="477" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1582092596668" />
+    <state x="0" y="0" width="1170" height="715" key="SettingsEditor" timestamp="1582095742051">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="0" width="1170" height="715" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582040696423" />
+    <state x="0" y="0" width="1170" height="715" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1582095742051" />
     <state x="0" y="0" width="889" height="834" key="find.popup" timestamp="1581659415167">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -617,10 +644,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1582037189975" />
-    <state x="338" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1582024811663">
+    <state x="338" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1582092402165">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="338" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1582024811663" />
+    <state x="338" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1582092402165" />
     <state x="190" y="101" key="spring file set editor" timestamp="1582040664793">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -656,7 +683,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shiro-spring/src/main/java/com/dbj/shiro/controller/UserController.java</url>
-          <line>19</line>
+          <line>21</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

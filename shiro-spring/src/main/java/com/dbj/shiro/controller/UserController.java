@@ -4,6 +4,8 @@ import com.dbj.shiro.vo.User;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,6 +25,41 @@ public class UserController {
         }catch(AuthenticationException e){
             return e.getMessage();
         }
-        return "登录成功";
+        return subject.hasRole("admin") ? "有admin角色":"没有admin权限";
+    }
+
+//    执行该方法需要具有admin角色
+    @RequiresRoles("admin")
+    @RequestMapping("/role")
+    @ResponseBody
+    public String testRole(){
+        return "role";
+    }
+
+    //    执行该方法需要具有admin1角色
+    @RequiresRoles("admin1")
+    @RequestMapping("/role1")
+    @ResponseBody
+    public String testRole1(){
+        return "role1";
+    }
+
+    @RequestMapping("/role2")
+    @ResponseBody
+    public String testRole2(){
+        return "role2";
+    }
+
+    @RequiresPermissions("user:delete")
+    @RequestMapping("/perms")
+    @ResponseBody
+    public String testPerms(){
+        return "perms";
+    }
+
+    @RequestMapping("/perms1")
+    @ResponseBody
+    public String testPerms1(){
+        return "perms1";
     }
 }
